@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Users/neel/Downloads/Week4-Tutorial/app/page.tsx"],"sourcesContent":["export const metadata = {\n  title: \"App Router\",\n};\n\nexport default function Page() {\n  return <h1>App Router</h1>;\n}\n"],"names":["metadata","title","Page"],"mappings":";;;;;;;;AAAO,MAAMA,WAAW;IACtBC,OAAO;AACT;AAEe,SAASC;IACtB,qBAAO,8OAAC;kBAAG;;;;;;AACb"}}]
+}
