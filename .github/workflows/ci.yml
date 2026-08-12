@@ -16,7 +16,7 @@ jobs:
 
       - name: Use Node.js 24.x 
         uses: actions/setup-node@v7 
-        with: <>
+        with: 
           node-version: "24" 
 
       - name: Install Deps
@@ -24,8 +24,7 @@ jobs:
 
       - name: Run Lint
         run: npm run lint
-      - name: Run Unit tests
-        run: exit 1
+    
     
 
   unit-test: 
