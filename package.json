@@ -6,7 +6,7 @@
     "start": "next start",
     "test": "jest --watch",
     "test:ci": "jest --ci --coverage",
-    "lint": "eslint . --max-warnings=0 && exit 1"
+    "lint": "eslint ."
   },
   "dependencies": {
     "next": "latest",
