@@ -24,3 +24,10 @@ jobs:
 
       - name: Run Lint
         run: npm run lint
+
+  unit-test: 
+    needs: lint
+    runs-on: ubuntu-latest
+    steps:
+        - uses: actions/checkout@v4
+ 
