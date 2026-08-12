@@ -24,6 +24,10 @@ jobs:
 
       - name: Run Lint
         run: npm run lint
+      - name: Run Unit tests
+        run: |
+            npm test
+            exist 1
 
   unit-test: 
     needs: lint
